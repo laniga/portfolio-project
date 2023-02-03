@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #fdf5fd;
+    font-family: 'Merriweather';
+    color: #433c53;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    background-color: #EED7E9;
+}
+
+li.nav-link {
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+.nav-link > a {
+    color: #2d273b;
+    text-decoration: none;
+}
+
+.header-container {
+    width: 100%;
+    margin: auto;
+}
+
+.navbar {
+    width: 95%;
+    min-height: 4rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 7rem;
+}
+
+.heading-title {
+    margin: 3rem;
+    color: #2d273b;
+}
+
+.heading-title h1 {
+    font-family: 'Marcellus';
+    font-size: 3.7rem;
+}
+
+.heading-title h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.section-heading {
+    color: #433c53;
+    font-size: 1.8rem;
+}
+
+.about-me-container {
+    margin: 30px auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.about-me-right {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 50%;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.about-me-title {
+    margin-bottom: 20px;
+}
+
+.about-me-right li {
+    list-style: none;
+}
+
+.about-me-right li::before{
+    content: "\00BB";
+}
+
+.about-me-points > li {
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.experience-header {
+    margin-bottom: 20px;
+}
+
+#web-manager {
+    display: none;
+}
+
+#achievements {
+    display: none;
+}
+
+.header-toggle {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+}
+
+.header-toggle:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #2d273b;
+    transition: text-decoration-color 350ms linear;
+}
+
+.toggle-list {
+    margin: 15px auto;
+    text-align: justify;
+    
+}
+
+.toggle-list li {
+    list-style: none;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.toggle-list li::before {
+    content: "\00BB  ";
+}
+
+.toggle-list li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-content {
+    max-width: 70%;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer * {
+    line-height: 2;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 7rem;
+}
+
+.footer {
+    position:absolute;
+    bottom: 0;
+    height: 7rem;
+    background-color: #EED7E9;
+    width: 100%;
+    color: #2d273b;
+}
+
+footer h3 {
+    font-family: 'Marcellus';
+}
